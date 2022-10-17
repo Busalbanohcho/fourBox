@@ -1,0 +1,92 @@
+body {
+    background-color: #cbcbcb;
+}
+
+.boxBorder {
+    width: 400px;
+    height: 400px;
+    border: 40px outset #ff6550;
+    border-radius: 80px;
+    background-color: #104357;
+    margin-left: 33.3%;
+}
+
+.stripeBorder {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 36%;
+    border-top: 10px double #50bbff;
+    border-bottom: 10px dotted #de50ff;
+}
+
+.shadow {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 36%;
+    background: #158cba;
+    box-shadow: 10px 10px 69px rgb(156, 61, 61);
+    opacity: 0.75;
+
+}
+
+:root {
+    --font-size: 16px;
+    --background-color: #ffeead;
+    --block-color: #88d8b0;
+
+}
+
+.table {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 36%;
+    background: var(--background-color);
+    font-size: var(--font-size);
+}
+
+.menu {
+    width: 400px;
+    height: 50px;
+    background: var(--block-color);
+
+}
+
+
+ul li {
+
+    display: block;
+    float: left;
+    margin-top: 13px;
+    padding-right: 59px;
+    color: #ffeead;
+
+}
+
+p {
+    text-align: center;
+    color: #88d8b0;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.textone {
+    width: 120px;
+    height: 80px;
+    background: var(--block-color);
+    color: var(--background-color);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+li {
+    margin-left: 21px;
+}
